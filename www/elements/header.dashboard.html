@@ -1,0 +1,19 @@
+
+<div class="homepage-top">
+    <div class="homepage-header">
+        <a class="open-nav" href="" ng-click="open()"><i class="fa fa-navicon"></i></a>
+        <em ng-bind="$state.current.data.pageTitle"></em>
+        <a href="contact.html"><i class="fa fa-envelope"></i></a>
+    </div>
+    <div class="homepage-logo">
+        <img ng-src="{{ava_picture}}" alt="logo">
+        <h3>{{ display_name }}</h3>
+        <p>1512018 | Teknik Informatika</p>
+    </div>
+        <div class="homepage-controls" ng-init="selectedTab = 'columnOne'">
+            <a class="homepage-box-one-deploy" href="#/dashboard/columnOne" ng-class="{'active-homepage':selectedTab === 'columnOne'}" ng-click="selectedTab = 'columnOne'" >Profile</a>
+            <a class="homepage-box-two-deploy"  href="#/dashboard/columnTwo" ng-class="{'active-homepage':selectedTab === 'columnTwo'}" ng-click="selectedTab = 'columnTwo'" >IPK</a>
+            <a class="homepage-box-three-deploy" href="#/dashboard/columnThree">Kontak</a>
+        </div>
+    <div class="overlay"></div> 
+</div>

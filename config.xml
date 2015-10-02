@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Stikom App</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Phonegap project: test android application with that thecnology
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
@@ -41,7 +41,6 @@
     <gap:plugin name="org.apache.cordova.network-information" source="npm"  />
     <gap:plugin name="org.apache.cordova.splashscreen" source="npm"  />
     <gap:plugin name="org.apache.cordova.vibration" source="npm"  />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
